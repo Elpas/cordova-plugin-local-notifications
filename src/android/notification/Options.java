@@ -271,7 +271,7 @@ public final class Options {
         if (SDK_INT < O) {
             return DEFAULT_CHANNEL_ID;
         }
-
+/*
         Uri soundUri = getSound();
         boolean hasSound = !isWithoutSound();
         boolean shouldVibrate = isWithVibration();
@@ -281,7 +281,9 @@ public final class Options {
         channelId = Manager.getInstance(context).buildChannelWithOptions(soundUri, shouldVibrate, hasSound, channelName,
                 channelId);
 
-        return channelId;
+        return channelId;*/
+        String channel =  options.optString("channel", null);
+        return channel;
     }
 
     /**

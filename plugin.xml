@@ -24,11 +24,11 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-local-notification"
-        version="0.9.0-beta.4">
+        version="0.9.0-beta.5">
 
     <name>LocalNotification</name>
 
-    <description>Schedules and queries for local notifications</description>
+    <description>Schedules and queries for local notifications. Can create channels for notifications.</description>
 
     <repo>https://github.com/katzer/cordova-plugin-local-notifications.git</repo>
 
